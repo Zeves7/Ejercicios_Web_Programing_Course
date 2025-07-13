@@ -1,3 +1,7 @@
+ html {
+    scroll-behavior: smooth;
+ }
+ 
  p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -16,4 +20,37 @@
     height: 250px;
     border-radius: 15px;
     box-shadow: 0 0 20px black;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15px;
+    font-style: italic;
+}
+
+body {
+  background-color: bisque; 
+}
+
+
+a {
+    color: black;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.ingridient {
+    font-weight: 600;
+}
+
+.steps {
+    font-weight: 600;
 }
